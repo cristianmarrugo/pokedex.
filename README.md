@@ -21,7 +21,7 @@
     
 4.  Complete el registro proporcionando la información solicitada.
     
-5.  Una vez creada la cuenta, acceda al portal de Azure en [https://portal.azure.com](https://portal.azure.com "null").
+5.  Una vez creada la cuenta, acceda al portal de Azure en [https://portal.azure.com](https://portal.azure.com).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODYwNTc4XX0=
+eyJoaXN0b3J5IjpbLTMxMzE2NDEzNV19
 -->
