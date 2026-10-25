@@ -1,4 +1,4 @@
-# Como desplegar pokedex a Azure
+# Cómo desplegar pokedex a Azure
 
 
 >1. Preparar el repositorio en GitHub:
@@ -25,12 +25,18 @@ Elegir la organización, el repositorio exacto donde está alojada la Pokédex y
 
 Seleccionar Angular como preajuste de compilación (Build Preset) e indicar la ruta de la carpeta donde se encuentra el código de la aplicación y la carpeta de salida donde se guardará el resultado compilado.
 
-9. Revisar y crear el servicio: Hacer clic en Revisar y crear y luego en Crear. Azure creará el recurso web y generará automáticamente un archivo de flujo de trabajo (workflow) con GitHub Actions en tu repositorio.
+>7. Revisar y crear el servicio:
 
-10. Monitorear el despliegue automático: Ir a la pestaña Actions en GitHub para verificar que el pipeline se ejecute, compile la aplicación y suba los archivos a Azure de forma exitosa.
+Hacer clic en Revisar y crear y luego en Crear. Azure creará el recurso web y generará automáticamente un archivo de flujo de trabajo (workflow) con GitHub Actions en tu repositorio.
 
-11. Verificación final: Acceder a la URL pública asignada por Azure Static Web Apps para confirmar que la aplicación web esté desplegada y funcionando en la nube.
+>8. Monitorear el despliegue automático: 
+
+Ir a la pestaña Actions en GitHub para verificar que el pipeline se ejecute, compile la aplicación y suba los archivos a Azure de forma exitosa.
+
+>9. Verificación final: 
+
+Acceder a la URL pública asignada por Azure Static Web Apps para confirmar que la aplicación web esté desplegada y funcionando en la nube.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxNjgzMTY3LDE1MDU0NDI0NTAsLTQ0MT
-EzNzA2N119
+eyJoaXN0b3J5IjpbLTE5MDg1Nzg4MzMsMTUwNTQ0MjQ1MCwtND
+QxMTM3MDY3XX0=
 -->
