@@ -40,9 +40,9 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "./pokedex.-master" # App source code path
+          app_location: "/sistemas-distribuidos/poke-dex-lab/source/pokedex-angular" # Ruta donde está el código fuente de Angular
           api_location: "" # Api source code path - optional
-          output_location: "dist/pokedex-angular" # Built app content directory - optional
+          output_location: "dist/pokedex-angular" # Carpeta donde Angular genera los archivos compilados
           github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### End of Repository/Build Configurations ######
 
