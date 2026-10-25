@@ -1,7 +1,5 @@
+# Como desplegar pokedex a Azure
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg3NDY2MTJdfQ==
--->
 
 1. Preparar el repositorio en GitHub: Tener el repositorio del proyecto listo y actualizado en GitHub en su rama principal, asegurándote de que el archivo staticwebapp.config.json esté en la raíz del proyecto frontend y declarado en la lista de recursos estáticos de Angular.
 
@@ -20,3 +18,6 @@ eyJoaXN0b3J5IjpbLTIwODg3NDY2MTJdfQ==
 8. Monitorear el despliegue automático: Ir a la pestaña Actions en GitHub para verificar que el pipeline se ejecute, compile la aplicación y suba los archivos a Azure de forma exitosa.
 
 9. Verificación final: Acceder a la URL pública asignada por Azure Static Web Apps para confirmar que la aplicación web esté desplegada y funcionando en la nube.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ0MTEzNzA2N119
+-->
